@@ -1,0 +1,54 @@
+/*
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAg1hggGnJ8idvASMtW5qiCh2Zfqe9ldlQ",
+    authDomain: "my-test-project-19544.firebaseapp.com",
+    projectId: "my-test-project-19544",
+    storageBucket: "my-test-project-19544.appspot.com",
+    messagingSenderId: "809471946134",
+    appId: "1:809471946134:web:79ddf43fb2a45aa68d81b7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* --
+Database: `chatapp`
+-- Table structure for table `messages`
+CREATE TABLE `messages` (
+  `msg_id` int(11) NOT NULL,
+  `incoming_msg_id` int(255) NOT NULL,
+  `outgoing_msg_id` int(255) NOT NULL,
+  `msg` varchar(1000) NOT NULL
+) 
+
+-- --------------------------------------------------------
+-- Table structure for table `users`
+CREATE TABLE `users` (
+  `user_id` int(11) NOT NULL,
+  `unique_id` int(255) NOT NULL,
+  `fname` varchar(255) NOT NULL,
+  `lname` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL,
+  `status` varchar(255) NOT NULL
+) */
